@@ -10,6 +10,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_WHOLE_STATIC_LIBRARIES += libadf
 LOCAL_STATIC_LIBRARIES += libpng
+LOCAL_C_INCLUDES += external/libpng external/zlib
 
 LOCAL_MODULE := libminui
 
